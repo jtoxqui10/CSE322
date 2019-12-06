@@ -2,8 +2,8 @@ body{
 	background-color: orange;
 	color: #333;
 	font: normal 18px Verdana, Geneva, sans-serif;
-/*	line-height: 1.5em;
-	margin: 10px 5px; */
+	line-height: 1.5em;
+	margin: 10px 5px; 
 }
 
 h1{
@@ -15,29 +15,42 @@ h1{
 	letter-spacing: 0.2em;
 }
 
+img, iframe{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
 a{
 	text-decoration: none;
 	color: #fff;
 }
 
-.container img, iframe{
-	display:block;
-	margin-left:auto;
-	margin-right:auto; 
-	width:50%; 
+a:hover{
+	color: red;
+}
+
+a:active{
+	color: green;
+}
+
+.container {
+	margin: auto;
+	width: 80%; 
 }
 
 .box-1 {
-	background-color:#333;
-	color:#fff;
-	border:5px white solid;
+	background-color: #333;
+	color: #fff;
+	border: 5px #fff solid;
 	padding: 15px 32px;
 	margin: 20px 0;
 }
 
 .box-2 {
-	background-color:#333;
-	border:5px #fff solid;
+	background-color: #333;
+	border: 5px #fff solid;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
@@ -46,9 +59,9 @@ a{
 }
 
 .videobox {
-	background-color:#333;
-	color:#fff;
-	border:5px white solid;
+	background-color: #333;
+	color: #fff;
+	border: 5px white solid;
 	padding: 15px 32px;
 	margin: 20px 0;
 
